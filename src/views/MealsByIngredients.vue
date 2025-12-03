@@ -5,7 +5,7 @@ import store from '../store'
 import Meals from '../components/Meals.vue'
 
 const meals = computed(() => store.state.mealsByIngredient)
-const ingredient = computed(() => store.state.ingredient)
+
 const route = useRoute()
 
 onMounted(() => {
